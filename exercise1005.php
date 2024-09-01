@@ -6,4 +6,14 @@
  * Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
  */
 
+$valorA = trim(fgets(STDIN));
+$valorB = trim(fgets(STDIN));
+
+$media = (($valorA * 3.5) + ($valorB * 7.5)) / 11;
+
+printf("MEDIA = %.5f\n", $media);
+
+
+
+
 ?>
