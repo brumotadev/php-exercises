@@ -8,6 +8,11 @@
 
  $valorA = trim(fgets(STDIN));
  $valorB = trim(fgets(STDIN));
+ $valorC = trim(fgets(STDIN));
+
+ $media = (($valorA * 2) + ($valorB * 3) + ($valorC * 5)) / 10;
+
+ printf("MEDIA = %.1f\n", $media);
 
  
 
