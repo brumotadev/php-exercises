@@ -7,4 +7,13 @@
  * 
  */
 
+ $valorA = trim(fgets(STDIN));
+ $valorB = trim(fgets(STDIN));
+ $valorC = trim(fgets(STDIN));
+ $valorD = trim(fgets(STDIN));
+
+ $diferenca = (($valorA * $valorB) - ($valorC * $valorD));
+
+ printf("DIFERENCA = %d\n", $diferenca);
+
 ?>
