@@ -5,4 +5,22 @@
  * Após, calcule e mostre o valor a ser pago.
  */
 
+
+ $codigoPeca1 = trim(fgets(STDIN));
+ $numeroPeca1 = trim(fgets(STDIN));
+ $valorUnitarioPeca1 = trim(fgets(STDIN));
+
+
+ $codigoPeca2 = trim(fgets(STDIN));
+ $numeroPeca2 = trim(fgets(STDIN));
+ $valorUnitarioPeca2 = trim(fgets(STDIN));
+
+
+ $totalPecas1 = (int)$numeroPeca1 * (float)$valorUnitarioPeca1;
+ $totalPecas2 = (int)$numeroPeca2 * (float)$valorUnitarioPeca2;
+
+ $valorTotal = $totalPecas1 + $totalPecas2;
+
+ printf("VALOR A PAGAR: R$ %.2f\n", $valorTotal);
+
 ?>
