@@ -12,7 +12,9 @@
  list($valorA, $valorB, $valorC) = explode(" ", readline());
 
  $triangulo = ($valorA * $valorC) / 2;
+ $circulo = 3.14159 * (pow($valorC, 2));
 
  printf("TRIANGULO: %.3f", $triangulo);
+ printf("CIRCULO: %.3f", $circulo);
 
 ?>
