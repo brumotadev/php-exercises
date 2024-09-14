@@ -9,4 +9,10 @@
  * e) a área do retângulo que tem lados A e B.
  */
 
+ list($valorA, $valorB, $valorC) = explode(" ", readline());
+
+ $triangulo = ($valorA * $valorC) / 2;
+
+ printf("TRIANGULO: %.3f", $triangulo);
+
 ?>
