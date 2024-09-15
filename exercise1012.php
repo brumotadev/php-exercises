@@ -13,8 +13,10 @@
 
  $triangulo = ($valorA * $valorC) / 2;
  $circulo = 3.14159 * (pow($valorC, 2));
+ $trapezio = (($valorA + $valorB) * $valorC) / 2;
 
- printf("TRIANGULO: %.3f", $triangulo);
- printf("CIRCULO: %.3f", $circulo);
+ printf("TRIANGULO: %.3f\n", $triangulo);
+ printf("CIRCULO: %.3f\n", $circulo);
+ printf("TRAPEZIO: %.3f", $trapezio);
 
 ?>
