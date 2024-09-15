@@ -14,9 +14,12 @@
  $triangulo = ($valorA * $valorC) / 2;
  $circulo = 3.14159 * (pow($valorC, 2));
  $trapezio = (($valorA + $valorB) * $valorC) / 2;
+ $quadrado = $valorB * $valorB;
 
  printf("TRIANGULO: %.3f\n", $triangulo);
  printf("CIRCULO: %.3f\n", $circulo);
- printf("TRAPEZIO: %.3f", $trapezio);
+ printf("TRAPEZIO: %.3f\n", $trapezio);
+ printf("QUADRADO: %.3f", $quadrado);
+
 
 ?>
